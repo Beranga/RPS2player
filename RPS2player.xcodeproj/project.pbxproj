@@ -13,10 +13,12 @@
 		503FC3312478843200D3009E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503FC32F2478843200D3009E /* Main.storyboard */; };
 		503FC3332478843200D3009E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503FC3322478843200D3009E /* Assets.xcassets */; };
 		503FC3362478843200D3009E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503FC3342478843200D3009E /* LaunchScreen.storyboard */; };
+		503FC33E2478845900D3009E /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FC33D2478845900D3009E /* Sign.swift */; };
+		503FC340247884CB00D3009E /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FC33F247884CB00D3009E /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		503FC3262478843200D3009E /* RPS II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPS II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503FC3262478843200D3009E /* RPS 2 player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPS 2 player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503FC3292478843200D3009E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503FC32B2478843200D3009E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		503FC32D2478843200D3009E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		503FC3322478843200D3009E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503FC3352478843200D3009E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		503FC3372478843200D3009E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503FC33D2478845900D3009E /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		503FC33F247884CB00D3009E /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		503FC3272478843200D3009E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				503FC3262478843200D3009E /* RPS II.app */,
+				503FC3262478843200D3009E /* RPS 2 player.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +60,8 @@
 		503FC3282478843200D3009E /* RPS II */ = {
 			isa = PBXGroup;
 			children = (
+				503FC33D2478845900D3009E /* Sign.swift */,
+				503FC33F247884CB00D3009E /* GameState.swift */,
 				503FC3292478843200D3009E /* AppDelegate.swift */,
 				503FC32B2478843200D3009E /* SceneDelegate.swift */,
 				503FC32D2478843200D3009E /* ViewController.swift */,
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		503FC3252478843200D3009E /* RPS II */ = {
+		503FC3252478843200D3009E /* RPS2player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 503FC33A2478843200D3009E /* Build configuration list for PBXNativeTarget "RPS II" */;
+			buildConfigurationList = 503FC33A2478843200D3009E /* Build configuration list for PBXNativeTarget "RPS2player" */;
 			buildPhases = (
 				503FC3222478843200D3009E /* Sources */,
 				503FC3232478843200D3009E /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "RPS II";
+			name = RPS2player;
 			productName = "RPS II";
-			productReference = 503FC3262478843200D3009E /* RPS II.app */;
+			productReference = 503FC3262478843200D3009E /* RPS 2 player.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 503FC3212478843200D3009E /* Build configuration list for PBXProject "RPS II" */;
+			buildConfigurationList = 503FC3212478843200D3009E /* Build configuration list for PBXProject "RPS2player" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				503FC3252478843200D3009E /* RPS II */,
+				503FC3252478843200D3009E /* RPS2player */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +146,8 @@
 			files = (
 				503FC32E2478843200D3009E /* ViewController.swift in Sources */,
 				503FC32A2478843200D3009E /* AppDelegate.swift in Sources */,
+				503FC340247884CB00D3009E /* GameState.swift in Sources */,
+				503FC33E2478845900D3009E /* Sign.swift in Sources */,
 				503FC32C2478843200D3009E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,8 +299,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.RPS-II";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RPS2player;
+				PRODUCT_NAME = "RPS 2 player";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,8 +317,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.RPS-II";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RPS2player;
+				PRODUCT_NAME = "RPS 2 player";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		503FC3212478843200D3009E /* Build configuration list for PBXProject "RPS II" */ = {
+		503FC3212478843200D3009E /* Build configuration list for PBXProject "RPS2player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503FC3382478843200D3009E /* Debug */,
@@ -328,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		503FC33A2478843200D3009E /* Build configuration list for PBXNativeTarget "RPS II" */ = {
+		503FC33A2478843200D3009E /* Build configuration list for PBXNativeTarget "RPS2player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503FC33B2478843200D3009E /* Debug */,
